@@ -1,7 +1,9 @@
 .container-fluid{
   background-image: url('~src/assets/Rectangle 8.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: green;
-  width:1440px;
+  //width:1440px;
   height:900px;
   margin-right: 0px;
   margin-left: 0px;
@@ -44,4 +46,3 @@
   align-items: center;
   color: #FFFFFF;
 }
- 

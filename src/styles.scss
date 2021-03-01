@@ -2,3 +2,9 @@
 @import '~bootstrap/scss/bootstrap'; 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
 
+
+@media screen and (max-width: 500px){
+    .app-root{
+        display: flex;
+    }
+}

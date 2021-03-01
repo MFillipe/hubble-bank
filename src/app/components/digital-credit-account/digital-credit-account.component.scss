@@ -1,14 +1,18 @@
 .container-fluid-two{
     background-color: #eaeaea;
     
-    width: 1440px;
+    //width: 1440px;
     height: 900px;
     left: 0px;
     top: 901px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .row-main{
         
-        position: absolute;
+        //position: absolute;
           width: 1319px;
           height: 786px;
           left: 63px;
