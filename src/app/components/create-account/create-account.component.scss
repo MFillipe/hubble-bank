@@ -3,6 +3,8 @@
     background-color: #8C52E5;
     width:1440px;
     height:900px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
   .img-home{
   position: absolute;
@@ -75,27 +77,46 @@
     //background-color: red;
   }
    
-  .text-center{
-    font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 19px;
-      line-height: 22px; 
-      width: 276px;
-      height: 65px;
-      top: 270px;
-      left: 995px;
+  .text-cartao{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    width: 276px;
+    /* height: 65px; */
+    top: 270px;
+    left: 995px;
+    //background-color: blue;
+    margin-top: -18px;
+    width: auto;
   }
-  .form-home .btn-continue{
-    //position: absolute;
-    width: 276.74px;
+  .btn-continue{
+    width: 250px;
     height: 47.66px;
     left: 992.9px;
     top: 619.6px;
     background-color: #000000;
     background: #D8D8D8;
     border-radius: 20px;
+    margin-left: -10px;
+    font-family: roboto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
   }
+  .btn-continue i{
+    left: 4.76%;
+    right: 13.76%;
+    top: 19.05%; 
+    padding: 0px 64px;
+    margin-right: -38px;
+    width: 24px;
+    height: 20px;
+    top: 6px;
+    left: 2px;
+    color: #9b9b9b;
+
+}
   
   .form-group{
   //position: absolute;
@@ -117,7 +138,7 @@
       font-weight: 400;
       line-height: 1.5;
       color: #495057;
-      background-color: #fff;
+      background-color: #fbfbfb;
       background-clip: padding-box;
       border: 0;
       border-radius: 0rem;     

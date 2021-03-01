@@ -1,0 +1,108 @@
+.container-fluid {
+    background-color: #8C52E5;
+    width:1440px;
+    height:900px;
+    margin-right: 0px;
+    margin-left: 0px;
+    }
+
+  .logo{
+    //position: absolute;
+    width: 291px;
+    height: 65px;
+    left: 65px;
+    top: 58px; 
+
+  }
+  .form-recovery{
+  position: absolute;
+  width: 455px;
+  height: 422px;
+  margin-left: 492px;
+  top: 239px;
+
+  background: #FBFBFB;
+  border-radius: 8px;
+  }
+  .text-recovery{
+       /* width: 360.79px; */
+       height: 57.96px;
+       left: 540px;
+       top: 261.08px;
+       font-family: Roboto;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 20px;
+       line-height: 23px;
+       /* display: flex; */
+       align-items: center;
+       text-align: center;
+       color: #1D1D1D;
+       /* background: cadetblue; */
+       margin: 8px;
+      }
+    .text-recovery p{
+        font-family: roboto;
+        font-size: 13px;
+        color: #050505;
+        margin-top: 7px;
+        margin-bottom: 0rem;
+    }
+
+  .btn-logon {
+      width: 360.79px;
+      height: 42.78px;
+      left: 540px;
+      top: 500.34px;
+      background: #68DE5A;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin-left: -15px;
+      color: #ffffff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      font-family: Roboto;
+  }
+  .btn-logon i{
+    left: 4.76%;
+      right: 13.76%;
+      top: 19.05%;
+      bottom: 13.17%; 
+
+  }
+
+
+  .form-control{
+      display: block;
+      width: 100%;
+      height: calc(1.5em + 0.75rem + 2px);
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fbfbfb;
+      background-clip: padding-box;
+      border: 0;
+      border-radius: 0rem;     
+      border-bottom: 1px solid #000000;
+      box-shadow: none;
+  }
+  .validation{
+    width: 181px;
+      height: 60px;
+      //background: red;
+      margin: auto;
+      margin-top: 10px;
+  }
+
+  .validation a{
+    color: #8c52e5;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+  } 
