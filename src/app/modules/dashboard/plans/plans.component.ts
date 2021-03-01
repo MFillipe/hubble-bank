@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
 import { finalize } from 'rxjs/operators';
-
-import { Plan } from './plan.interfaces';
-import { PlansService } from './plans.service';
+import { Plan } from 'src/app/shared/interfaces/plan.interfaces';
+import { PlansService } from 'src/app/shared/services/plans.service';
 
 @Component({
   selector: 'app-plans',

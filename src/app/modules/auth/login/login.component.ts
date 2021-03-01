@@ -65,6 +65,8 @@ export class LoginComponent implements OnInit {
           login: response.usuario.login,
           name: response.usuario.nome,
           token: response.token,
+          accountId: response.conta.id,
+          creditAccountId: response.contaCredito.id,
         });
 
         this.router.navigate(['dashboard']);
