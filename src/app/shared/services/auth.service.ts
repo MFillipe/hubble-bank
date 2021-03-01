@@ -16,7 +16,7 @@ export class AuthService {
     localStorage.setItem('user', JSON.stringify(user));
   }
 
-  getUser(): LoggedUser | null {
+  getUser() {
     if (this.loggedUser) return this.loggedUser;
 
     const user = localStorage.getItem('user');
