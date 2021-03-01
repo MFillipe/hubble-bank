@@ -27,30 +27,35 @@
         <div class="input-field">
           <label class="control-label"></label>
           <input type="text" class="form-control-home" placeholder="Digite seu CPF">
+          <p *ngIf="showError('cpf')" class="form__validation">CPf inválido</p>
         </div>
   
         <div class="input-field">
           <label class="control-label"></label>
           <input type="text" class="form-control-home" placeholder="Escolha um usuário">
+          <p *ngIf="showError('id')" class="form__validation">Usuário inválido</p>
         </div>
   
         <div class="input-field">
           <label class="control-label "></label>
           <input type="text" class="form-control-home" placeholder="Nome Completo">
+          <p *ngIf="showError('name')" class="form__validation">Nome inválido</p>
         </div>
   
         <div class="input-field">
           <label class="control-label"></label>
           <input type="text" class="form-control-home" placeholder="Digite sua senha">
+          <p *ngIf="showError('password')" class="form__validation">Senha inválida</p>
         </div>
   
         <div class="input-field">
           <label class="control-label"></label>
           <input type="text" class="form-control-home" placeholder="Confirme sua senha">
+          <p *ngIf="showError('temporaryPassword')" class="form__validation">Senha não compatível</p>
         </div>
   
           <div class="btn">
-            <button class="btn btn-continue">Continuar
+            <button class="btn btn-continue" (click)="submitUser()">Continuar
             <i class="bi bi-arrow-right"></i>
           </button>
   
