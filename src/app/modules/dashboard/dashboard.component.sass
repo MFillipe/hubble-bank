@@ -1,0 +1,79 @@
+@import 'src/app/sass/colors'
+@import 'src/app/sass/display'
+
+.dashboard-container
+  background-color: $purple
+  min-height: 100vh
+  margin: 0
+  display: flex
+  margin: 0
+  flex-direction: row
+
+.cards-wrapper
+  width: 100%
+  margin: 3rem 20rem 3rem 10rem
+  padding: 2rem 12rem 2rem 2rem
+
+.welcome-user
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.welcome-user-text
+  font-style: normal
+  font-weight: 500
+  font-size: 22px
+  line-height: 26px
+  display: flex
+  align-items: center
+  color: $white
+
+
+.feature-buttons
+  display: flex
+
+.btn-hidden
+  background: url('/assets/icons/ellipse.svg') no-repeat
+  background-size: 44px
+  width: 45px
+  height: 45px
+  margin-right: 0.4rem
+  display: flex
+  justify-content: center
+  align-items: center
+.btn-hidden, img
+  cursor: pointer
+
+.btn-reload
+  background: url('/assets/icons/ellipse.svg') no-repeat
+  background-size: 44px
+  width: 45px
+  height: 45px
+  margin-right: 0.4rem
+  display: flex
+  justify-content: center
+  align-items: center
+.btn-reload, img
+  cursor: pointer
+
+
+.btn-sign-out
+  background: url('/assets/icons/ellipse.svg') no-repeat
+  background-size: 44px
+  width: 45px
+  height: 45px
+  margin-right: 8.8rem
+  display: flex
+  justify-content: center
+  align-items: center
+.btn-sing-out, img
+  cursor: pointer
+
+
+.cads-accounts
+  display: flex
+  align-items: center
+
+@media screen and (max-width: $screen-lg-min)
+  .dashboard-container
+    flex-direction: column

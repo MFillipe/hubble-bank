@@ -1,0 +1,24 @@
+<div class="dashboard-container">
+  <app-sidebar></app-sidebar>
+  <div class="cards-wrapper">
+
+    <div class="welcome-user">
+      <p class="welcome-user-text">Olá {{ nameUser }}, seja bem vindo! </p>
+
+      <div class="feature-buttons">
+        <div class="btn-hidden">
+          <img src="assets/icons/eye-hidden.svg" title="Ocultar">
+        </div>
+      </div>
+    </div>
+
+    <div class="cads-accounts">
+      <app-account></app-account>
+      <app-credit-account></app-credit-account>
+    </div>
+
+    <div class="card-latest-statements">
+      <app-latest-statements></app-latest-statements>
+    </div>
+  </div>
+</div>

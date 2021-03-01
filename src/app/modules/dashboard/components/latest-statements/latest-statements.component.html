@@ -1,0 +1,25 @@
+<div class="card-latest-statements-container mt-5">
+  <div class="card-latest-statements-body mt-4">
+    <div class="card-name mb-4">
+      <img src="assets/icons/dollar-sign.svg">
+      <p class="card-name-text ml-3">Últimos lançamentos</p>
+    </div>
+
+    <div class="card-statements-wrapper">
+      <div class="card-statements-details">
+        <div class="debit-icon">
+          <img src="assets/icons/on-debit.svg">
+        </div>
+        <div class="card-statements mt-4">
+          <p class="card-statements-title">Compra no {{ statementeAccount }}</p>
+          <p class="card-statements-discription">{{ statementsDiscription }}</p>
+          <p class="card-statements-amount">R$ {{ statementsTotal }}</p>
+        </div>
+      </div>
+
+      <div class="statements-date">
+        <p class="statements-date-text">Dia {{ statementsDate }}</p>
+      </div>
+    </div>
+  </div>
+</div>

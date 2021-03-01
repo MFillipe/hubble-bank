@@ -16,6 +16,13 @@ import { SimpleLifeComponent } from './components/simple-life/simple-life.compon
 import { CreateAccountComponent } from './components/create-account/create-account.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CreateAcountFormComponent } from './components/create-acount-form/create-acount-form.component';
+import { AccountComponent } from './modules/dashboard/components/account/account.component';
+import { CreditAccountComponent } from './modules/dashboard/components/credit-account/credit-account.component';
+import { LatestStatementsComponent } from './modules/dashboard/components/latest-statements/latest-statements.component';
+import { SidebarComponent } from './modules/dashboard/components/sidebar/sidebar.component';
+import { DepositsComponent } from './modules/dashboard/pages/deposits/deposits.component';
+import { PlansComponent } from './modules/dashboard/pages/plans/plans.component';
+import { DashboardComponent } from './modules/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +38,14 @@ import { CreateAcountFormComponent } from './components/create-acount-form/creat
     ComplexityComponent,
     SimpleLifeComponent,
     CreateAccountComponent,
-    CreateAcountFormComponent
+    CreateAcountFormComponent,
+    AccountComponent,
+    CreditAccountComponent,
+    LatestStatementsComponent,
+    SidebarComponent,
+    DepositsComponent,
+    PlansComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
