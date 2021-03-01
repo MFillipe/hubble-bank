@@ -1,4 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~bootstrap/scss/bootstrap'; 
+@import '~bootstrap/scss/bootstrap';
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
 
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  font-family: "Roboto", sans-serif;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
