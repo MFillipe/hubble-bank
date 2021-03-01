@@ -1,0 +1,67 @@
+@import 'src/app/sass/colors'
+@import 'src/app/sass/form'
+@import 'src/app/sass/display'
+
+.logo
+  position: absolute
+  Width: 291px
+  Height: 65px
+  Top: 52px
+  Left: 63px
+
+
+.home-container
+  background: url('/assets/images/happy.png')
+  background-repeat: no-repeat
+  background-position: center bottom
+  background-color: $purple
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+  margin: 0
+  align-items: center
+  justify-content: space-around
+
+.home
+  width: 281px
+  height: 173px
+  font-style: normal
+  font-weight: normal
+  font-size: 29px
+  line-height: 34px
+  flex-direction: column
+  align-items: center
+  color: $white
+
+.btn-access
+  background: $white
+  width: 100%
+  height: 42px
+  border-radius: 20px
+  border: none
+  cursor: pointer
+  padding: 0px 15px 0px 15px
+  align-items: center
+  justify-content: space-between
+
+.btn-access, text-home
+  color: $purple
+  font-style: normal
+  font-weight: 500
+  font-size: 17px
+  line-height: 20px
+  display: flex
+  align-items: center
+
+.form-home
+  max-width:400px
+
+@media screen and (max-width: $screen-lg-min)
+  .home-container
+    background: none
+    background-color: $purple
+    align-items: center
+  .account-form
+    max-width:300px
+  .logo
+   visibility: none

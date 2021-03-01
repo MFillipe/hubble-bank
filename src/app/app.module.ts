@@ -14,6 +14,8 @@ import { ZeroAnnuityComponent } from './components/zero-annuity/zero-annuity.com
 import { ComplexityComponent } from './components/complexity/complexity.component';
 import { SimpleLifeComponent } from './components/simple-life/simple-life.component';
 import { CreateAccountComponent } from './components/create-account/create-account.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CreateAcountFormComponent } from './components/create-acount-form/create-acount-form.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +30,13 @@ import { CreateAccountComponent } from './components/create-account/create-accou
     ZeroAnnuityComponent,
     ComplexityComponent,
     SimpleLifeComponent,
-    CreateAccountComponent
+    CreateAccountComponent,
+    CreateAcountFormComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

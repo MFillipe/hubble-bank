@@ -1,0 +1,72 @@
+@import 'src/app/sass/colors'
+@import 'bootstrap'
+@import 'src/app/sass/display'
+
+.container-fluid-two
+  background: $gray-light
+  display: flex
+  flex-direction: row
+  justify-content: center
+  flex-flow: wrap
+  padding:5em
+
+.digital-gama, .credit-card
+  display: flex
+  flex-direction: column
+  max-width: 100%
+  justify-content: space-between
+  width:700px
+
+.digital-gama
+  background-color: $black
+  padding: 5rem 1rem 5rem 5rem
+  align-items: left
+
+.credit-card
+  background-color: $white-dark
+  align-items: center
+  padding: 5rem 1rem
+
+.digital-txt
+  color: $green
+
+.cartao-text
+  color: $black-dark
+
+.gama-digital-bg
+  max-width: 400px
+
+.credit-card-bg
+  max-width: 300px
+
+.gama-digital-discription, .credit-card-discription
+  max-width: 300px
+  font-size: 21px
+  line-height: 25px
+
+.desc-digital
+  color: $green
+
+.desc-card
+  color: $black-dark
+
+@media screen and (max-width: $screen-lg-min)
+  .container-fluid-two, .digital-gama, .credit-card
+    flex-direction: column
+    align-items: center
+    padding:2rem 0rem
+
+  .digital-txt, .cartao-text,
+  .gama-digital-discription, .credit-card-discription
+    text-align: center
+    margin:2rem
+
+  .credit-card-bg
+    width:70%
+    margin:0rem
+
+  .gama-digital-bg
+    max-width: 300px
+
+
+
